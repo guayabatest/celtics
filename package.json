@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/guayabatest/celtics/issues"
   },
-  "homepage": "https://github.com/guayabatest/celtics#readme"
+  "homepage": "https://github.com/guayabatest/celtics#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
