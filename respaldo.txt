@@ -1,0 +1,4 @@
+link css
+<link rel="stylesheet" href="styles/style.css">
+
+<img src="/img" alt="Burguer">

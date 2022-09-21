@@ -1,77 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link
-    
-    />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <section>
-    <header class="hero-header">
-        <div class="hero-right">
-            <h3 class="logo">BURGUER LETI</h3>
-            <nav>
-                <ul class="menu">
-                    <li class="item-menu">EN TIENDA</li>
-                    <li class="item-menu">DELIVERY</li>
-                </ul>
-                <input type="text">
-            </nav>
-        </div>
-    </header>
-    <div>
-        <img src="/img/restaurant_photo_1608814127.566725.jpg" alt="Burguer">
-    </div>
-    </section>
-    <section class="menu-body">
-        <nav>
-            <ul class="menu-letra">
-                <li class="menu-icono">PROMOCIONES</li>
-                <li class="menu-icono">COMBOS</li>
-                <li class="menu-icono">HAMBURGUESAS</li>
-                <li class="menu-icono">BEBIDAS</li>
-                <li class="menu-icono">POSTRES</li>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">AQUI VA EL LOGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-        </nav>
-    </section>
-    <main>
-        <div class="contenedor">
-            <div>
-                <img src="/img/462d8615-53e8-4abb-ba59-1c71ccd26980-venison.jpeg" alt="">
-                <h3>LA PRIMERA</h3>
-                <P>Hamburguesa super especial con carne</P>
-                <a href="#" class="action-buttom">Comprar</a>
-            </div>
-            <div>
-                <img src="/img/featured-smash-burgers-recipe.jpeg" alt="">
-                <h3>LA SALSERA</h3>
-                <P>Hamburguesa super especial con carne con salsa</P>
-                <a href="#" class="action-buttom">Comprar</a>
-            </div>
-            <div>
-                <img src="/img/Scrum-Delicious-Burgers_EXPS_CHMZ19_824_B10_30_2b.jpeg" alt="">
-                <h3>LA VALLENATERA</h3>
-                <P>Hamburguesa super especial con pollo</P>
-                <a href="#" class="action-buttom">Comprar</a>
-            </div>
-            <div>
-                <img src="/img/462d8615-53e8-4abb-ba59-1c71ccd26980-venison.jpeg" alt="">
-                <h3>LA ROCKERA</h3>
-                <P>Hamburguesa super especial con full carne</P>
-                <a href="#" class="action-buttom">Comprar</a>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <div>
-            <h2>BURGUER SUPER BURGUER</h2>
-        </div>
-        
-    </footer>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="hero-header d-flex justify-content-center align-items-center">
+    <h3 class="text-white">BURGUER LETI</h3>
+  </section>
+  <section class="menu-body">
+    <nav>
+      <ul class="menu-letra">
+        <li class="menu-icono">PROMOCIONES</li>
+        <li class="menu-icono">COMBOS</li>
+        <li class="menu-icono">HAMBURGUESAS</li>
+        <li class="menu-icono">BEBIDAS</li>
+        <li class="menu-icono">POSTRES</li>
+      </ul>
+    </nav>
+  </section>
+  <main>
+    <div class="contenedor">
+      <div>
+        <img src="/img/462d8615-53e8-4abb-ba59-1c71ccd26980-venison.jpeg" alt="">
+        <h3>LA PRIMERA</h3>
+        <P>Hamburguesa super especial con carne</P>
+        <a href="#" class="action-buttom">Comprar</a>
+      </div>
+      <div>
+        <img src="/img/featured-smash-burgers-recipe.jpeg" alt="">
+        <h3>LA SALSERA</h3>
+        <P>Hamburguesa super especial con carne con salsa</P>
+        <a href="#" class="action-buttom">Comprar</a>
+      </div>
+      <div>
+        <img src="/img/Scrum-Delicious-Burgers_EXPS_CHMZ19_824_B10_30_2b.jpeg" alt="">
+        <h3>LA VALLENATERA</h3>
+        <P>Hamburguesa super especial con pollo</P>
+        <a href="#" class="action-buttom">Comprar</a>
+      </div>
+      <div>
+        <img src="/img/462d8615-53e8-4abb-ba59-1c71ccd26980-venison.jpeg" alt="">
+        <h3>LA ROCKERA</h3>
+        <P>Hamburguesa super especial con full carne</P>
+        <a href="#" class="action-buttom">Comprar</a>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div>
+      <h2>BURGUER SUPER BURGUER</h2>
+    </div>
+
+  </footer>
+  <script src="./scripts/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
