@@ -2,3 +2,23 @@ link css
 <link rel="stylesheet" href="styles/style.css">
 
 <img src="/img" alt="Burguer">
+
+
+      <div>
+        <img src="/img/featured-smash-burgers-recipe.jpeg" class="imagen" alt="">
+        <h3>LA SALSERA</h3>
+        <P>Hamburguesa super especial con carne con salsa</P>
+        <a href="#">Comprar</a>
+      </div>
+      <div>
+        <img src="/img/Scrum-Delicious-Burgers_EXPS_CHMZ19_824_B10_30_2b.jpeg" class="imagen" alt="">
+        <h3>LA VALLENATERA</h3>
+        <P>Hamburguesa super especial con pollo</P>
+        <a href="#">Comprar</a>
+      </div>
+      <div>
+        <img src="/img/462d8615-53e8-4abb-ba59-1c71ccd26980-venison.jpeg" class="imagen" alt="">
+        <h3>LA ROCKERA</h3>
+        <P>Hamburguesa super especial con full carne</P>
+        <a href="#"">Comprar</a>
+      </div>
