@@ -8,13 +8,18 @@
     box-sizing: border-box;
 }
 
+.container-fluid{
+    padding: 0px 200px ;
+}
+
 .hero-header{
     background-image: url("/img/restaurant_photo_1608814127.566725.jpg");
-    height: 30rem;
+    height: 20rem;
+    width: 100rem;
 }
 
 .menu-body {
-    padding: 20px 10px ;
+    padding: 20px 300px ;
     align-items: center;
     text-decoration: none;
 }
@@ -22,44 +27,50 @@
 .menu-letra{
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
 }
 
+.menu-icono{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
 
 .container{
     background-color: hsl(270, 100%, 99%);
     display: flex;
     flex: 1;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 5rem;
     overflow: hidden;
     padding: 2rem;
-
 }
 
-.container h3{
+.food h3{
     font-family:'Alfa Slab One' cursive;
     font-weight: 300;
     font-size: 2rem;
     margin: 10px 0;
+    align-items: center;
 }
 
-.container a {
+.food a {
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     background-color: rgb(100, 4, 23);
     padding: 1rem;
-    color: white;
+    color: hsl(0, 0%, 100%);
     text-decoration: none;
+    align-items: center;
 }
 
 .menu-product{
-    background-color: aqua;
+    background-color: #ffffff;
     padding: 2rem;
 }
 
 .imagen{
-    width:350px;
+    width:300px;
     height:250px;
 }
