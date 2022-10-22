@@ -9,6 +9,7 @@
 }
 
 .container-fluid{
+    background-color: blueviolet;
     padding: 0px 200px ;
 }
 
@@ -22,6 +23,7 @@
     padding: 20px 300px ;
     align-items: center;
     text-decoration: none;
+    background-color: aquamarine;
 }
 
 .menu-letra{
